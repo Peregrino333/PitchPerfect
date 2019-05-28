@@ -84,11 +84,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljm-vU-dPD">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="228.5"/>
-                                                <state key="normal" title="Slow Button" image="Slow"/>
+                                                <state key="normal" image="Slow"/>
                                             </button>
                                             <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHj-0q-SX2">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="228.5"/>
-                                                <state key="normal" title="Fast Button" image="Fast"/>
+                                                <state key="normal" image="Fast"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -97,11 +97,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJF-lP-luX">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="229"/>
-                                                <state key="normal" title="High Pitch" image="HighPitch"/>
+                                                <state key="normal" image="HighPitch"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzf-3a-nqg">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="229"/>
-                                                <state key="normal" title="Low Pitch" image="LowPitch"/>
+                                                <state key="normal" image="LowPitch"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -110,11 +110,12 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZb-tD-ZK3">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="228.5"/>
-                                                <state key="normal" title="Echo Button" image="Echo"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                                <state key="normal" image="Echo"/>
                                             </button>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3e-LF-7D1">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="228.5"/>
-                                                <state key="normal" title="Reverb Button" image="Reverb"/>
+                                                <state key="normal" image="Reverb"/>
                                             </button>
                                         </subviews>
                                     </stackView>
